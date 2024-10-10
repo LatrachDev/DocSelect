@@ -118,30 +118,6 @@ a:focus {
   padding: 10px 0;
 }
 
-/* add style for navbar */
-/* 
-.header_bottom {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
-
-.custom_nav-container {
-  background-color: rgb(0, 0, 0, 0.5);
-  transition: background-color 0.3s;
-}
-
-.navbar-nav .nav-link {
-  color: white; 
-}
-
-.navbar-nav .nav-link:hover {
-  color: #f0f0f0; 
-} */
-
-/* end adding style for navbar */
-
 .navbar-brand {
   padding: 0;
   margin: 0;
@@ -430,12 +406,6 @@ a:focus {
   color: #ffffff;
   transform: scale(1.05);
 }
-/* .feature_section .feature_container .box:hover,
-.feature_section .feature_container .box.active {
-  background-color: #06D001;
-  color: #ffffff;
-  transform: scale(1.05);
-} */
 
 .feature_section .feature_container .box:hover .img-box svg,
 .feature_section .feature_container .box.active .img-box svg {
@@ -462,12 +432,6 @@ a:focus {
 .about_section .detail-box p {
   margin-top: 10px;
 }
-
-/* test */
-/* .hero_area {
-  position: relative;
-  background-color: #ffffff;
-} */
 
 .about_section .detail-box a {
   margin-top: 15px;
@@ -600,10 +564,10 @@ a:focus {
   transform: scale(1.05);
 }
 
-/* .service_section .box:hover .img-box img {
+.service_section .box:hover .img-box img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
-} */
+}
 
 .service_section .btn-box {
   display: -webkit-box;
@@ -618,7 +582,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
   padding: 10px 45px;
@@ -626,6 +590,7 @@ a:focus {
   border: 1px solid #06D001;
   border-radius: 0;
   color: #ffffff;
+  transition: 0.3s;
 }
 
 .service_section .btn-box a:hover {
@@ -806,7 +771,6 @@ a:focus {
 }
 
 .info_section .social-box .box {
-  background-color: #ffffff;
   padding: 5px 15px;
 }
 
@@ -817,10 +781,11 @@ a:focus {
 
 .info_section a i {
   font-size: 18px;
+  transition: 0.3s;
 }
 
 .info_section a:hover {
-  color: #06D001;
+  color: #fff;
 }
 
 .info_items a {
@@ -902,4 +867,3 @@ a:focus {
 }
 
 /* end footer section*/
-/* # sourceMappingURL=style.css.map */
