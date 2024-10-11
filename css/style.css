@@ -690,7 +690,7 @@ a:focus {
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
+  color: #000;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
@@ -719,7 +719,7 @@ a:focus {
   border: none;
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
   padding: 10px 55px;
@@ -728,6 +728,7 @@ a:focus {
   border-radius: 0;
   color: #ffffff;
   margin-top: 15px;
+  transition: 0.3s;
 }
 
 .contact_section button:hover {
