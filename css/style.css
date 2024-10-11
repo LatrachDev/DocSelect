@@ -682,7 +682,7 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.contact_section input {
+.contact_section input , .contact_section select{
   width: 100%;
   border: none;
   height: 50px;
@@ -865,6 +865,7 @@ a:focus {
 
 .footer_section a {
   color: inherit;
+  color: #006400;
 }
 
 /* end footer section*/
